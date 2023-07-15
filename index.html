@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vihaan Pundir (v-pun215)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/pic.ico">
+</head>
+<body onload="typeWriter()" oncontextmenu="return false;">  
+    <center>
+    <div class="nav" >
+        <a class="gog" href="index.html"><img src="img/pic.jpg" width="50px" height="50px" style="border-radius:100px;"></a>
+        <a class="sus1" href="projects.html">Projects</a>
+        <a class="sus" style="margin-left:20px;" href="https://github.com/v-pun215">GitHub</a>    
+    </div>
+    <div class="typing">
+        <h1 class="type" id="demo"></h1>
+    </div>
+    <br>
+    </center>
+    <p>Hi there, my name's Vihaan Pundir (a.k.a v-pun215). I love to build quality-of-life<br/> software such as eClient and much, much more. I've been working on a lot<br/> of projects recently, this being one of it.</p>
+    <h2>Skills</h2>
+    <div class="box1">
+        <p>Python</p>
+        <img src="img/py.png" width="30px"height=32px>
+    </div>
+    <div class="box2">
+        <p>HTML</p>
+        <img src="img/html.png" width="30px"height=32px>
+    </div>
+    <div class="box2">
+        <p>CSS</p>
+        <img src="img/css.png" width="30px"height=32px>
+    </div>
+    <div class="box3">
+        <p>JavaScript</p>
+        <img src="img/js.png" width="30px"height=32px style="border-radius:5px;">
+    </div>
+    <div class="box4">
+        <p>Batch</p>
+        <img src="img/batch.png" width="31px"height=23px style="margin-top:40px;">
+    </div>
+    <div class="box4">
+        <p>Typescript</p>
+        <img src="img/ts.png" width="30px"height=32px>
+    </div>
+
+
+    
+    <script>
+        var i = 0;
+        var txt = 'I am a developer.';
+        var speed = 120;
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+        </script>
+</body>
+</html>
