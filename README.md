@@ -1,2 +1,6 @@
-# iam
-My portfolio. If you're confused between the other repo, this one's the new one.
+# v-pun215
+I am v-pun215.
+
+This is my portfolio.
+
+Inspired by (heavily): https://nishitjha.vercel.app/
