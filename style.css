@@ -112,6 +112,32 @@ h2 {
     margin-left:240px;
     margin-top:35px;
 }
+.proj1 {
+    background-color:#191919;
+    width:280px;
+    height:140px;
+    border-radius:15px;
+    margin-left:290px;
+    float:left;
+    cursor:default;
+    transition: all .2s ease-in-out;
+}
+.proj1:hover {
+    transform: scale(1.1); 
+    cursor:pointer;
+}
+.proj1 p {
+    margin-top:1px;
+    margin-left:10px;
+    font-size:20px;
+    padding:10px;
+    
+    
+}   
+.proj1 img {
+    margin-left:240px;
+    margin-top:35px;
+}
 .box2 {
     background-color:#191919;
     width:280px;
@@ -129,6 +155,27 @@ h2 {
     
 }   
 .box2 img {
+    margin-left:240px;
+    margin-top:35px;
+}
+.proj2 {
+    background-color:#191919;
+    width:280px;
+    height:140px;
+    border-radius:15px;
+    margin-left:20px;
+    float:left;
+    cursor:default;
+    transition: all .2s ease-in-out;
+}
+.proj2 p {
+    margin-top:1px;
+    margin-left:10px;
+    font-size:20px;
+    padding:10px;
+    
+}   
+.proj2 img {
     margin-left:240px;
     margin-top:35px;
 }
@@ -150,7 +197,29 @@ h2 {
     
 }   
 .box3 img {
-    margin-left:220px;
+    margin-left:242px;
+    margin-top:35px;
+}
+.proj3 {
+    background-color:#191919;
+    width:280px;
+    height:140px;
+    border-radius:15px;
+    margin-left:290px;
+    margin-top: 20px;
+    float:left;
+    cursor:default;
+    transition: all .2s ease-in-out;
+}
+.proj3 p {
+    margin-top:1px;
+    margin-left:10px;
+    font-size:20px;
+    padding:10px;
+    
+}   
+.proj3 img {
+    margin-left:242px;
     margin-top:35px;
 }
 .box4 {
@@ -168,6 +237,28 @@ h2 {
     margin-top:35px;
 }
 .box4 p {
+    margin-top:1px;
+    margin-left:10px;
+    font-size:20px;
+    padding:10px;
+    
+}   
+.proj4 {
+    background-color:#191919;
+    width:280px;
+    height:140px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+    cursor:default;
+    transition: all .2s ease-in-out;
+}
+.proj4 img {
+    margin-left:240px;
+    margin-top:35px;
+}
+.proj4 p {
     margin-top:1px;
     margin-left:10px;
     font-size:20px;
@@ -209,4 +300,16 @@ h2 {
 @keyframes blink2 {
     from, to { border-color: transparent }
     50% { border-color: white; }
+}
+.proj2:hover {
+    transform: scale(1.1); 
+    cursor:pointer;
+}
+.proj3:hover {
+    transform: scale(1.1); 
+    cursor:pointer;
+}
+.proj4:hover {
+    transform: scale(1.1); 
+    cursor:pointer;
 }
