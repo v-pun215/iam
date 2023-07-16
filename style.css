@@ -194,3 +194,19 @@ h2 {
   ::-webkit-scrollbar-thumb:hover {
     background: grey; 
   }    
+#dude {
+    font-family:sf_bold;
+    font-size:40px;
+    margin-left:290px;
+    margin-top:40px;
+    border-right: .15em solid white;
+    animation:
+    blink2 .75s step-end infinite;
+    width:fit-content;
+    height:fit-content;
+
+}
+@keyframes blink2 {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
