@@ -1,3 +1,7 @@
+:root {
+    --he: 19.06%;
+    --she:19.06%;
+}
 @font-face {
     font-family: sf;
     src: url(fonts/sf.otf);
@@ -14,6 +18,7 @@ body {
     background-size:cover;
     color:white;
     font-family: sf;
+    overflow:none;
 }
 a {
     color:white;
@@ -29,7 +34,7 @@ a {
 .sus1 {
     float:left;
     margin-top:17px;
-    margin-left:750px;
+    margin-left:49.3%;
 }
 a:hover {
     color:grey;
@@ -38,7 +43,9 @@ a:hover {
     color:white;
     margin-top:30px;
     padding:17px;
-    width:1000px;
+    padding-right:0px;
+    padding-left:0px;
+    width:100%;
     height:50px;
 }
 .nav a {
@@ -53,7 +60,7 @@ a:hover {
 .gog {
     float:left;
     border-radius:100px;
-    margin-left:30px;
+    margin-left:var(--he);
     
 }
 .gog:hover {
@@ -72,7 +79,7 @@ h1 {
 }
 .typing{
     float:left;
-    margin-left:290px;
+    margin-left:var(--he);
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
@@ -81,14 +88,14 @@ h1 {
 p {
     margin-top:85px;
     font-size:20px;
-    margin-left:290px;
+    margin-left:var(--he);
     color:grey;
 
 }
 h2 {
     font-family:sf_bold;
     font-size:28px;
-    margin-left:290px;
+    margin-left:var(--he);
     margin-top:40px;
 }
 .box1 {
@@ -96,9 +103,10 @@ h2 {
     width:280px;
     height:140px;
     border-radius:15px;
-    margin-left:290px;
+    margin-left:var(--he);
     float:left;
     cursor:default;
+    
 }
 .box1 p {
     margin-top:1px;
@@ -117,7 +125,7 @@ h2 {
     width:280px;
     height:140px;
     border-radius:15px;
-    margin-left:290px;
+    margin-left:var(--he);
     float:left;
     cursor:default;
     transition: all .2s ease-in-out;
@@ -184,7 +192,7 @@ h2 {
     width:280px;
     height:140px;
     border-radius:15px;
-    margin-left:290px;
+    margin-left:var(--he);
     margin-top: 20px;
     float:left;
     cursor:default;
@@ -205,7 +213,7 @@ h2 {
     width:280px;
     height:140px;
     border-radius:15px;
-    margin-left:290px;
+    margin-left:var(--he);
     margin-top: 20px;
     float:left;
     cursor:default;
@@ -288,7 +296,7 @@ h2 {
 #dude {
     font-family:sf_bold;
     font-size:40px;
-    margin-left:290px;
+    margin-left:var(--she);
     margin-top:40px;
     border-right: .15em solid white;
     animation:
@@ -312,4 +320,88 @@ h2 {
 .proj4:hover {
     transform: scale(1.1); 
     cursor:pointer;
+}
+@media screen and (max-width: 800px) {
+    .gog {
+        margin-left:5%;
+    }
+    .typing{
+        margin-left:5%;
+    }
+    p {
+        margin-left:5%;
+    }
+    h2 {
+        margin-left:5%;
+    }
+    .box1 {
+        margin-left:5%;
+        width:90%;
+    }
+    .box1 img {
+        margin-left:91%;
+    }
+    .box2 img {
+        margin-left:91%;
+    }
+    .box3 img {
+        margin-left:91%;
+    }
+    .box4 img {
+        margin-left:91%;
+    }
+    .proj1 img {
+        margin-left:91%;
+    }
+    .proj2 img {
+        margin-left:91%;
+    }
+    .proj3 img {
+        margin-left:91%;
+    }
+    .proj4 img {
+        margin-left:91%;
+    }
+    .box2 {
+        margin-left:5%;
+        margin-top:20px;
+        width:90%;
+    }
+    .box3 {
+        margin-left:5%;
+        margin-top:20px;
+        width:90%;
+    }
+    .box4 {
+        margin-left:5%;
+        margin-top:20px;
+        width:90%;
+    }
+    .proj1 {
+        margin-left:5%;
+        width:90%;
+    }
+    .proj2 {
+        margin-left:5%;
+        margin-top:20px;
+        width:90%;
+    }
+    .proj3 {
+        margin-left:5%;
+        margin-top:20px;
+        width:90%;
+    }
+    .proj4 {
+        margin-left:5%;
+        margin-top:20px;
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    :root {
+        --he: 10%;
+        --she:6%;
+    }
+    
 }
